@@ -7,6 +7,15 @@
   --main-black:#000000;
 }
 
+@font-face{
+    font-family:'Roboto-Regular';
+    src: url('/fonts/Roboto-Regular.ttf') format('woff2');
+}
+
+body{
+    font-family: 'Roboto-Regular', Arial, Helvetica, sans-serif
+}
+
 header{
   background-color:var(--main-dark);
 }
