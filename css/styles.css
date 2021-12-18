@@ -1,0 +1,226 @@
+:root{
+  /* Purple */
+  --main-dark: #333366;
+  /* Orange */
+  --main-light:#FF9933;
+  --main-white:#FFFFFF;
+  --main-black:#000000;
+}
+
+header{
+  background-color:var(--main-dark);
+}
+main{
+  background-color:var(--main-dark);
+}
+
+.welcomeBox{
+  margin:0px 8%;
+  padding-bottom:100px;
+}
+
+.headerFlex{
+  background-color: var(--main-dark);
+  display:flex;
+  color:var(--main-white);
+  padding:5px 0px;
+  align-items:center;
+}
+
+.headerLogo{
+  flex:1;
+  margin:0;
+  white-space:nowrap;
+}
+
+
+.headerLinkBox{
+  flex:1;
+  display:flex;
+  white-space:nowrap;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+}
+
+.headerLink{
+  text-decoration:none;
+  color:var(--main-white);
+}
+
+
+
+.mainWelcome{
+  background-color:var(--main-dark);
+  color:white;
+  padding-top:30px;
+  display:flex;
+  align-items:center;
+
+}
+
+.mainText{
+  flex:1;
+  padding-bottom:10px;
+}
+
+.mainText h1{
+  font-size:50px;
+}
+
+.mainText h2{
+  font-size:1.5em;
+  font-weight:normal;
+}
+
+.githubButton{
+  background-color:var(--main-light);
+  text-decoration:none;
+  padding:5px 30px;
+  font-size:1.5em;
+  font-weight:bold;
+  color:var(--main-black);
+  border-radius:10px;
+  border:3px solid white;
+}
+.githubButton:hover{
+  background-color:var(--main-white);
+  color:var(--main-light);
+  border:3px solid var(--main-light);
+}
+
+.mainImage{
+  flex:1;
+  text-align:center;
+}
+
+.mainImage img{
+  max-height:350px;
+}
+
+
+
+.mainLight{
+  background-color:white;
+}
+
+.imageSubtextHeader{
+  text-align:center;
+  padding-top:50px;
+  font-size:40px;
+}
+
+.imageSubtextContainer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:52px;
+  text-align:center;
+  padding-bottom:50px;
+}
+
+.imageSubtext{
+  margin-top:40px;
+}
+
+.imageSubtext p1{
+  display:block;
+  margin-top:10px;
+  opacity:70%;
+}
+
+.imageSubtext img{
+  border:5px solid var(--main-light);
+  border-radius:20px;
+}
+
+
+
+.mainQuote{
+  background-color:lightgrey;
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align:left;
+}
+
+.mainQuote blockquote{
+  font-size:35px;
+  margin:0px 20%;
+  font-style:italic;
+}
+
+.mainQuoteCite{
+  text-align:right;
+  margin:0px 25%;
+  font-weight:bold;
+  font-size:35px;
+}
+
+
+
+.mainCallToAction{
+  background-color:var(--main-white);
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.ctaContainer{
+  margin:0px 25%;
+  padding:20px 20px 20px 20px;
+  display:flex;
+  background-color:var(--main-light);
+  align-items:center;
+  border-radius:10px;
+  text-align:center;
+}
+
+.ctaText{
+  flex:1.5;
+  text-align:left;
+}
+
+.ctaText h2{
+  margin-bottom:1%;
+}
+
+.ctaText p1{
+  font-size:1em;
+}
+
+.ctaButton{
+  flex:1;
+}
+
+.ctaButton .githubButton{
+  display:inline-block;
+  border:3px solid var(--main-black);
+  background-color:var(--main-dark);
+  color:var(--main-light);
+}
+
+.ctaButton .githubButton:hover{
+  background-color:var(--main-white);
+  color:var(--main-light);
+  border:3px solid var(--main-dark);
+}
+
+
+
+
+
+
+footer{
+  width:100%;
+  position:absolute;
+  background-color:var(--main-dark);
+
+  
+}
+footer h3{
+  color:var(--main-white);
+  text-align:center;
+  font-weight:normal;
+  font-size:medium;
+}
+
+
